@@ -3,6 +3,12 @@ Simple game based on [Space Invaders](https://en.wikipedia.org/wiki/Space_Invade
 
 [![](http://img.youtube.com/vi/fz2shNlDVoc/0.jpg)](https://www.youtube.com/watch?v=fz2shNlDVoc)
 
+### Compiling:
+
+```
+g++ main.cpp -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio -o classinvaders
+```
+
 ### Keyboard:
 
 | Key        | Effect           |
