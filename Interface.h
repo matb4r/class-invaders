@@ -146,6 +146,11 @@ void Interface::Start()
 	{
 		if(sf::Keyboard::isKeyPressed(sf::Keyboard::Space))
 			break;
+		if(sf::Keyboard::isKeyPressed(sf::Keyboard::Escape))
+		{
+			window->close();
+			return;
+		}
 	}
 
 }
