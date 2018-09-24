@@ -5,7 +5,7 @@ Simple game based on [Space Invaders](https://en.wikipedia.org/wiki/Space_Invade
 
 https://www.youtube.com/watch?v=GkydbDx0d1s
 
-### Compiling:
+### Compile:
 
 ```
 g++ main.cpp -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio -o classinvaders
